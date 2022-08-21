@@ -1,0 +1,85 @@
+.fonts-si2{
+    font-size: 120px;
+    color: #06264b;
+    font-weight: 700;
+}
+.banner-hei{
+    margin: 0;
+    padding: 0;
+    background-image: url(./section-background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-attachment: fixed;
+
+    background-color: #d2eaea;
+}
+.font-si1{
+    font-size: 30px;
+    color: #fc6539;
+    font-weight: 400;
+}
+.peragraph{
+    
+    color: #06264b;
+    font-weight: 400;
+}
+.button-1{
+    background: #06264b;
+    color: #fc6539;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+}
+
+/* media quary responsive site */
+@media screen and (max-width: 768px){
+    .fonts-si2{
+        font-size: 50px;
+    }
+    .font-si1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    
+}
+    @media screen and (max-width: 1200px) {
+        .fonts-si2{
+            font-size: 60px;
+        }
+        .button-1{
+            background: #06264b;
+            color: #fc6539;
+            padding: 10px 30px;
+            font-size: 30px;
+            border-radius: 35px;
+            border: none;
+        }
+        .font-si1{
+            
+            font-size: 36px;
+            color: #fc6539;
+            font-weight: 400;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .fonts-si2{
+            font-size: 43px;
+        }
+        .button-1{
+            background: #06264b;
+            color: #fc6539;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 35px;
+            border: none;
+        }
+        .font-si1{
+            
+            font-size: 25px;
+            color: #fc6539;
+            font-weight: 400;
+        }
+    }

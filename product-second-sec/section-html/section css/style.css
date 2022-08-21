@@ -1,0 +1,80 @@
+.fonts-si2 span{
+    position: relative;
+    
+}
+
+.fonts-si2{
+    font-size: 50px;
+    color: #06264b;
+    font-weight: 500;
+  
+   
+}
+
+
+
+.font-si1{
+    font-size: 30px;
+    color: #fc6539;
+    font-weight: 400;
+}
+.peragraph{
+    
+    color: #06264b;
+    font-weight: 400;
+}
+.button-1{
+    background: #06264b;
+    color: #fc6539;
+    padding: 10px 25px;
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+}
+.banner-text{
+    position: relative;
+}
+.banner-text::after{
+    content :'';
+    position: absolute;
+    height: 3px;
+    width:25%;
+    background: #fc6539;
+    
+    left: 0;
+    bottom: -15px;
+    
+}
+
+/* media quary responsive site */
+@media all and (max-width:800px) {
+    .fonts-si2{
+        font-size: 25px;
+    }
+    .font-si1{
+            
+        font-size: 25px;
+        font-weight: 400;
+    }
+    /* .first{
+        order: 2;
+       
+    }
+    .second{
+        order: 1;
+       
+    } */
+}
+
+    @media all and (max-width: 1200px) {
+        .fonts-si2{
+            font-size: 35px;
+        }
+       
+        .font-si1{
+            
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+   
