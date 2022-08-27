@@ -1,0 +1,14 @@
+.imgSize{
+    height: 56px;
+    width: 60px;
+}
+
+/*======================= 
+============================resposive from 776px md size==============
+==================*/
+
+@media (min-width: 776px) {
+    .rtxsize{
+        font-size: 1.5rem;
+    }
+}
